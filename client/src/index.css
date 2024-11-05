@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "77MinecraftRegular";
+  src: local("77MinecraftRegular"),
+    url("./fonts/F77MinecraftRegular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "MinecraftEvenings";
+  src: local("MinecraftEvenings"),
+    url("./fonts/MinecraftEvenings.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Minecrafter.Alt";
+  src: local("Minecrafter.Alt"),
+    url("./fonts/Minecrafter.Alt.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Minecrafter.Reg";
+  src: local("Minecrafter.Reg"),
+    url("./fonts/Minecrafter.Reg.ttf") format("truetype");
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  font-family: "77MinecraftRegular";
+}
+
+body {
+  height: 100%;
+  background: url("./assets/wallpaper1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
